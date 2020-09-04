@@ -1,0 +1,24 @@
+<circuit animate="0" speed="1000000" type="simulide_0.1" reactStep="50" noLinStep="10" noLinAcc="5">
+ 
+Arduino Uno-2: 
+<item rotation="0" Mhz="16" labelrot="0" objectName="Arduino Uno-2" id="Arduino Uno-2" vflip="1" itemtype="Arduino" Ser_Monitor="true" Program="test1/test1.ino.standard.hex" Show_id="true" valLabely="0" hflip="1" labelx="0" valLabRot="0" labely="-20" Ser_Port="true" valLabelx="0" x="-660" y="-220"/>
+ 
+Potentiometer-1: 
+<item rotation="0" labelrot="0" objectName="Potentiometer-1" id="Potentiometer-1" vflip="1" Unit=" k?" Show_res="true" itemtype="Potentiometer" Value_Ohm="889" Show_id="false" valLabely="-20" hflip="1" labelx="-16" valLabRot="0" labely="-24" Resistance="1" valLabelx="10" x="-436" y="-164"/>
+ 
+Connector-3: 
+<item rotation="0" labelrot="0" objectName="Connector-3" enodeid="Circ_eNode-4" id="Connector-3" vflip="1" itemtype="Connector" pointList="-452,-164,-484,-164,-484,-124,-508,-124" Show_id="false" startpinid="Potentiometer-1-PinA" valLabely="0" hflip="1" labelx="-16" valLabRot="0" labely="-24" valLabelx="0" x="-452" y="-164" endpinid="Arduino Uno-2-V5V"/>
+ 
+Connector-5: 
+<item rotation="0" labelrot="0" objectName="Connector-5" enodeid="Circ_eNode-6" id="Connector-5" vflip="1" itemtype="Connector" pointList="-436,-148,-492,-148,-492,-164,-508,-164" Show_id="false" startpinid="Potentiometer-1-PinM" valLabely="0" hflip="1" labelx="-16" valLabRot="0" labely="-24" valLabelx="0" x="-436" y="-148" endpinid="Arduino Uno-2-PC0"/>
+ 
+Connector-7: 
+<item rotation="0" labelrot="0" objectName="Connector-7" enodeid="Circ_eNode-8" id="Connector-7" vflip="1" itemtype="Connector" pointList="-420,-164,-420,-132,-508,-132" Show_id="false" startpinid="Potentiometer-1-PinB" valLabely="0" hflip="1" labelx="-16" valLabRot="0" labely="-24" valLabelx="0" x="-420" y="-164" endpinid="Arduino Uno-2-GND2"/>
+ 
+PlotterWidget-9: 
+<item height="200" isActiveWindow="true" size="" windowModality="0" minimumWidth="200" pos="" maximized="false" cursor="" maximumHeight="200" width="200" accessibleName="" focusPolicy="0" windowIconText="" layoutDirection="0" x="0" accessibleDescription="" itemtype="Plotter" childrenRect="" frameGeometry="" geometry="" toolTip="" toolTipDuration="-1" locale="" minimumHeight="200" minimumSize="" sizePolicy="" baseSize="" styleSheet="" windowIcon="" frameSize="" y="0" whatsThis="" objectName="PlotterWidget-9" windowFilePath="" enabled="true" minimized="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" windowTitle="" statusTip="" MaxVolt="500" focus="false" windowModified="false" MinVolt="-500" palette="" maximumSize="" maximumWidth="1000" contextMenuPolicy="1" fullScreen="false" acceptDrops="false" visible="false" sizeHint="" normalGeometry="" inputMethodHints="0" autoFillBackground="false" childrenRegion="" sizeIncrement="" rect="" mouseTracking="false" minimumSizeHint="" modal="false" updatesEnabled="true" windowOpacity="1"/>
+ 
+SerialPortWidget-10: 
+<item height="170" isActiveWindow="true" size="" windowModality="0" minimumWidth="0" pos="" maximized="false" cursor="" maximumHeight="170" width="450" accessibleName="" focusPolicy="0" windowIconText="" layoutDirection="0" x="200" accessibleDescription="" itemtype="SerialPort" SettingsProp="COM1,0,3,0,0,0" childrenRect="" frameGeometry="" geometry="" toolTip="" toolTipDuration="-1" locale="" minimumHeight="0" minimumSize="" sizePolicy="" baseSize="" styleSheet="" windowIcon="" frameSize="" y="806" whatsThis="" objectName="SerialPortWidget-10" windowFilePath="" enabled="true" minimized="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" windowTitle="Configuracion" statusTip="" focus="false" windowModified="false" palette="" maximumSize="" maximumWidth="450" contextMenuPolicy="1" fullScreen="false" acceptDrops="false" visible="true" sizeHint="" normalGeometry="" inputMethodHints="0" autoFillBackground="false" childrenRegion="" sizeIncrement="" rect="" mouseTracking="false" minimumSizeHint="" modal="false" updatesEnabled="true" windowOpacity="1"/>
+ 
+</circuit>
